@@ -21,3 +21,5 @@ INNER JOIN customers ON customers.CustomerId = invoices.CustomerId
 WHERE Country = 'France'
 AND InvoiceDate BETWEEN '2009-03-01' AND '2009-03-31'
 ---
+
+
